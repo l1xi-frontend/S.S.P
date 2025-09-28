@@ -48,7 +48,7 @@ function choosingRobot(userInt) {
     }
     
     delayP.style.opacity = '0%'
-  }, 3000)
+  }, 1000)
   
   const newGame = setTimeout(() => {
     blocked = false
@@ -58,7 +58,7 @@ function choosingRobot(userInt) {
     robotImageContainer.style.opacity = '0%'
     winner.textContent = ''
     
-  }, 7000)
+  }, 5000)
   
 }
 
