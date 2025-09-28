@@ -20,11 +20,11 @@ function choosingRobot(userInt) {
   let robotInt = Math.floor(Math.random() * 3)
   
   if (robotInt == 0) {
-    robotImage.setAttribute('src', 'img/камень.png')
+    robotImage.setAttribute('src', './img/камень.png')
   } else if (robotInt == 1) {
-    robotImage.setAttribute('src', 'img/ножницы.png')
+    robotImage.setAttribute('src', './img/ножницы.png')
   } else {
-    robotImage.setAttribute('src', 'img/бумага.png')
+    robotImage.setAttribute('src', './img/бумага.png')
   }
   delayP.style.opacity = '100%'
   delayP.textContent = 'Думает...'
